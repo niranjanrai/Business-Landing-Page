@@ -17,6 +17,9 @@ html{
 body{
     
 }
+p{
+    color: #636567;
+}
 .navbar{
     margin-bottom: 10rem;
     /* margin-bottom: 10rem; */
@@ -112,6 +115,10 @@ align-content: center;
     font-family: "poppins";
 }
 
+.input-wrapper{
+    display: flex;
+    gap: 1rem;
+}
 
 /* Number-section */
 
@@ -130,7 +137,68 @@ align-content: center;
 }
 .num p{
     font-size: 1.6rem;
+    color: #686868;
+    font-weight: 600;
 }
+.num-head{
+    margin-bottom: 1.5rem;
+}
+
+.showcase{
+    height: 60rem;
+    margin-bottom: 15rem;
+}
+.showcase img{
+margin: 0 auto;
+width: 100%;
+height: 100%;
+}
+
+.feature{
+    text-align: center;
+}
+
+.feature-head{
+    margin-bottom: 4rem;
+}
+
+/* Feature Showcase Area */
+
+.feature-showcase-area{
+    /* display: grid; */
+    /* grid-template-columns: ; */
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.feat-show-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.feat-show-img{
+    width: 100%;
+}
+.feat-show-img img{
+    width: 50rem;
+    height: 50rem;
+}
+
+
+.feat-show-text-2{
+grid-column: 2/3;
+}
+.feat-show-img-2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+
+
+
 
 
 
