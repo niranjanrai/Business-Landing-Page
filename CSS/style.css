@@ -14,12 +14,157 @@ html{
   font-family: 'Poppins', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
-
+body{
+    
+}
+.navbar{
+    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
+}
 .container {
     max-width: 120rem;
     margin: 0 auto;
     margin-top: 3rem;
   }
+
+  .navbar{
+    background-color: #636C79;
+    height: 100vh;
+
+}
+.navbar-container{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.logo{
+    color: #fff;
+    width: 11rem;
+    /* margin-top: 3rem; */
+  }
+
+.grow-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+    align-items: center;
+    /* margin-bottom: 10rem; */
+
+}
+.list{
+    display: flex;
+    gap: 3rem;
+}
+.list-item{
+    font-size: 1.6rem;
+    font-family: "poppins";
+    color: #cecaca;
+}
+.button-group{
+    align-self: center;
+align-content: center;
+}
+.nav-button{
+    width: 15rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #cecaca;
+    background-color: inherit;
+    border: 1px solid #aaa;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.hero-section{
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    margin-top: 5rem;
+}
+.hero-img img{
+    width: 70%;
+    height: 130%;
+    /* justify-items: center; */
+    /* align-items: center; */
+    place-items: center;
+}
+
+.hero-text{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+     gap: 3rem;
+    place-content: center;
+}
+.hero-text h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.hero-text p{
+    font-size: 1.7rem;
+    line-height: 1.6;
+    color: #fff;
+    font-family: "poppins";
+}
+
+
+/* Number-section */
+
+  .section-number{
+    display: grid;
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+}
+
+.number-num{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    font-family: "poppins";
+}
+.num p{
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background-color:#10181D ;
@@ -141,7 +286,7 @@ footer{
 input{
   width: 23rem;
   height: 3.5rem;
-  background-color:#140B5C;
+  /* background-color:#140B5C; */
   font-size: 1.6rem;
   font-weight: 500;
   color: #fff;
