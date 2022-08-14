@@ -1,0 +1,80 @@
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 0 5rem;
+  }
+  .container {
+    max-width: 110rem;
+  }
+  .hero-img img {
+    height: 100%;
+  }
+  footer {
+    padding: 0 5rem;
+  }
+  .input-btn {
+    right: 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .input-btn {
+    right: 30px;
+  }
+  .hero-img img {
+    height: 100%;
+  }
+  .hero-text h1 {
+    font-size: 4rem;
+  }
+  .hero-text p {
+    font-size: 1.6rem;
+  }
+
+  .showcase img {
+    padding: 0 5rem 0 10rem;
+    width: 95%;
+  }
+
+  .feature-showcase-area {
+    column-gap: 5rem;
+    padding: 0 5rem;
+  }
+  .primary-heading {
+    font-size: 3rem;
+  }
+  .para-text {
+    font-size: 1.5rem;
+  }
+  .feat-show-img img {
+    width: 90%;
+    height: 40rem;
+    object-fit: fill;
+  }
+  .teams {
+    padding: 0 5rem;
+  }
+  .team-intro {
+    gap: 10rem;
+  }
+  .team-intro p {
+    font-size: 1.6rem;
+  }
+  .team-members {
+    column-gap: 3rem;
+  }
+  .team-member h1 {
+    font-size: 2rem;
+  }
+  .team-member p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    width: 8rem;
+  }
+  .grow-list {
+    gap: 4rem;
+  }
+}
