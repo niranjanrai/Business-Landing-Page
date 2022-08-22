@@ -98,13 +98,12 @@
     margin-top: 5rem;
   }
   .input-btn {
-    right: 170px;
+    right: 10px;
   }
   .section-number {
     margin: 5rem 10rem;
   }
   .feature-showcase-area {
-    /* grid-template-columns: 70fr 30fr; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -121,7 +120,30 @@
   .team-intro {
     flex-wrap: wrap;
   }
+  .number-num {
+    flex-wrap: wrap;
+  }
   .team-members {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-member {
+    margin-bottom: 3rem;
+  }
+  .team-btn {
+    margin-top: 10rem;
+  }
+  .team-member img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .footer {
+    margin-top: 10rem;
+  }
+  .top {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .link-boxes {
     grid-template-columns: repeat(2, 1fr);
   }
 }
